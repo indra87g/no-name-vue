@@ -17,13 +17,15 @@ const { t } = useI18n()
 <template>
   <div>
     <div text-4xl>
-      <div i-carbon-campsite inline-block />
+      <div i-carbon-cloud inline-block />
     </div>
     <p>
       <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
+        No Name
       </a>
     </p>
+    <p>
+      This Vue application still doesn't have any functionality. please provide your ideas via <a href="https://github.com/indra87g/no-name-vue">Github</a></p>
     <p>
       <em text-sm opacity-75>{{ t('intro.desc') }}</em>
     </p>
